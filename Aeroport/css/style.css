@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Inter:wght@100&display=swap');
+
+body{
+    font-size: 9px;
+    font-family: 'Arsenal';
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/image/airport.jpg);
+    background-size: cover;
+}
+.header{
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px #ffffff solid;
+}
+.wrap-menu ul{
+    list-style: none;
+}
+.wrap-menu li{
+    display: inline;
+    font-size: 1rem;
+    font: 'Inter', sans-serif;
+}
+.wrap-menu li a{
+    text-decoration: none;
+    padding:0 5px;
+    color: #ffffff;
+}
+.wrap-menu li a:hover{
+    text-decoration: none;
+    text-align: right;
+    font-weight: 700;
+}
+.slider-for-this{
+    background-image: linear-gradient(to left, #D8BFD8, #BC8F8F);
+    margin-top: 86vh;
+}
+.slider-for-this h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+}
+.slider-for-this p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.slider-hh{
+    margin-top: 90vh;
+}
+.el-footer{
+   width: 20vw;
+    height: 40vh;
+}
+.el-top{
+    width: 20vw;
+    height: 40vh;
+}
